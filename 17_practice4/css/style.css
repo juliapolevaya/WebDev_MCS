@@ -1,0 +1,86 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.headerOne {
+	width: 1500px;
+	height: 50px;
+	background-color: lightblue;
+	background-size: cover;
+	}
+
+.headerTwo {
+	width: 1500px;
+	height: 350px;
+	background-image: url(../img/Oscar.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size: 23px;
+	font-family: 'Cousine', monospace;
+	background-attachment: fixed;
+	}
+
+.headerThree {
+	width: 1500px;
+	height: 80px;
+	background-color: lightblue;
+	}
+
+.header-container h1{
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 350px;
+	color: white;
+}
+
+.Who h2{
+font-family: 'Cousine', monospace;
+font-weight: bold;
+
+}
+
+.mainText {
+font-family: 'Montserrat', sans-serif;
+
+}
+
+ul{
+font-family: 'Montserrat', sans-serif;
+
+}
+
+.Whom h2{
+font-family: 'Cousine', monospace;
+font-weight: bold;
+
+}
+
+.Description h2{
+font-family: 'Cousine', monospace;
+font-weight: bold;
+
+}
+
+.Contacts h2{
+font-family: 'Cousine', monospace;
+font-weight: bold;
+
+}
+
+.copiright{
+font-family: 'Cousine', monospace;
+text-align: left;
+font-size: 15px;
+
+}
+
+.sectionFooter {
+	width: 1500px;
+	height: 1000px;
+	background-image: url(../img/OscarDog.jpg);
+	background-size: 700px;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment: fixed;
+}
+
