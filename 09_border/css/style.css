@@ -7,4 +7,5 @@
 	border-bottom: 5px double yellow;
 	border-right: 5px dotted blue;
 	border-radius: 50%;
+	/*удобнее когда закрывающая скобка находится на уровне селектора, без таба*/
 	}
