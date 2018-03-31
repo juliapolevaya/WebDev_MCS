@@ -1,17 +1,22 @@
+/* зачем в папке и reset и normalize, если используется только reset? */
 @import url(reset.css);
 
 .headerOne {
+	/* для чего нужна ширина?*/
 	width: 1500px;
 	height: 50px;
 	background-color: lightblue;
 	background-size: cover;
+/* молю, не нужно табулировать эту скобку */
 	}
 
 .headerTwo {
+	/* для чего нужна ширина?*/
 	width: 1500px;
 	height: 350px;
 	background-image: url(../img/Oscar.jpg);
 	background-size: cover;
+	/*если используется cover, то no-repeat не очень-то и нужен*/
 	background-repeat: no-repeat;
 	background-position: center;
 	font-size: 23px;
@@ -25,19 +30,21 @@
 	background-color: lightblue;
 	}
 
+/* до этого между селектором и { был пробел */
 .header-container h1{
 	text-align: center;
 	text-transform: uppercase;
 	line-height: 350px;
 	color: white;
 }
-
+/* почему бы не задать шрифт сразу всем заголовкам, а не переписывать одно и то же для каждого? */
 .Who h2{
+/* где табуляция, которая так помогала мне раньше? */
 font-family: 'Cousine', monospace;
 font-weight: bold;
 
 }
-
+/* почему бы не задать шрифт текста вообще для всего кроме заголовков и не писать это столько раз? */
 .mainText {
 font-family: 'Montserrat', sans-serif;
 
@@ -68,17 +75,20 @@ font-weight: bold;
 
 .copiright{
 font-family: 'Cousine', monospace;
+/* он left по умолчанию, можно не писать */
 text-align: left;
 font-size: 15px;
 
 }
 
 .sectionFooter {
+	/*зачем нужна ширина?*/
 	width: 1500px;
 	height: 1000px;
 	background-image: url(../img/OscarDog.jpg);
 	background-size: 700px;
 	background-repeat: no-repeat;
+	/* лучше укалывать позиционирование и по x и по y в данном случае */
 	background-position: top;
 	background-attachment: fixed;
 }
