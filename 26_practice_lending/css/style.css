@@ -1,0 +1,123 @@
+@import url(reset.css);
+
+.header-logo-container {
+	height: 80px;
+	background-color: #202020;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+.logo {
+	color: white;
+	line-height: 70px;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.menu a {
+	color: white;
+	line-height: 70px;
+	margin-right: 20px;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h1 {
+	margin-left: 20px;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.main-container {
+	height: 350px;
+	background-color: white;
+	border: 5px solid #202020;
+	display: flex;
+}
+
+.image-container {
+	height: 350px;
+	background-image: url(../img/Grotowski_Main.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	left: 10px;
+	top: 5px;
+	
+}
+
+h2 {
+	text-transform: uppercase;
+	line-height: 40px;
+	letter-spacing: 1px;
+	text-align: left;
+	padding-top: 70px;
+	padding-left:500px;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.who {
+	height: 120px;
+	width: 700px;
+	background-color: white;
+	border: 2px solid #202020;
+	border-radius: 10px;
+	position: relative;
+	margin: 40px auto;	
+}
+
+p {
+	padding: 20px 20px;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+.section-nav {
+	height: 200px;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+
+.section-links {
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.quote {
+	height: 130px;
+	width: 700px;
+	background-color: white;
+	border: 2px solid #202020;
+	border-radius: 10px;
+	position: relative;
+	margin: 40px auto;	
+	padding-top: 10px;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+img {
+	padding-left: 10px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	float: left;
+
+}
+
+.footer-copyright-container {
+	height: 70px;
+	background-color: #202020;
+	margin-top: 50px;
+}
+
+.copyright {
+	color: white;
+	line-height: 70px;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
