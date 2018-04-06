@@ -4,15 +4,15 @@
 	height: 80px;
 	background-color: #202020;
 	display: flex;
-	flex-direction: row;
+	flex-direction: row; /* это значение по-умолчанию, можно не писать */
 	justify-content: space-between;
 }
 
 
 .logo {
 	color: white;
-	line-height: 70px;
-	font-family: 'IBM Plex Sans', sans-serif;
+	line-height: 70px; /* зачем, если можно центрировать объекты при помощи align-items ? */
+	font-family: 'IBM Plex Sans', sans-serif; /* почему бы не задавать шрифты на более глобальном уровне, например для всех заголовков */
 }
 
 .menu a {
@@ -35,6 +35,7 @@ h1 {
 }
 
 .image-container {
+	/* написал в html коммент. Подход с 2-мя колонками в данном случае предпочтителен */
 	height: 350px;
 	background-image: url(../img/Grotowski_Main.jpg);
 	background-repeat: no-repeat;
@@ -43,7 +44,7 @@ h1 {
 	top: 5px;
 	
 }
-
+/* лучше здесь обратиться по классу, h2 слишком глобальный селектор, вдруг такой еще появится? */
 h2 {
 	text-transform: uppercase;
 	line-height: 40px;
@@ -65,11 +66,12 @@ h2 {
 }
 
 p {
-	padding: 20px 20px;
+	padding: 20px 20px; /* лучше написать padding для контейнера who */
 	font-family: 'IBM Plex Sans', sans-serif;
 }
 .section-nav {
-	height: 200px;
+	/* написал в html коммент, тут лучше сделать 3 колонки с 2мя блоками внутри */
+	height: 200px; /* лучше убрать эту высоту */
 	background-color: white;
 	display: flex;
 	flex-direction: row;
@@ -106,14 +108,14 @@ img {
 	padding-left: 10px;
 	padding-right: 5px;
 	padding-bottom: 10px;
-	float: left;
+	float: left; /* если уж float, хотя не рекомендую, то нужно зачищать его при помощи clear: both; */
 
 }
 
 .footer-copyright-container {
 	height: 70px;
 	background-color: #202020;
-	margin-top: 50px;
+	margin-top: 50px; /* я бы делал через flex */
 }
 
 .copyright {
