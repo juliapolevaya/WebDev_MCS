@@ -1,0 +1,77 @@
+@import url(reset.css);
+
+.header {
+	height: 100px;
+	background-color: darkred;
+	display: flex;
+	align-items: center;
+}
+
+p {
+	font-family: 'Dosis', sans-serif;	
+	font-size: 20px;
+}
+
+.header, .footer {
+	font-family: 'Dosis', sans-serif;	
+
+}
+
+h1 {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.columns {
+	width: 90vw;
+	margin: auto;
+	height: 500px;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+}
+
+.column {
+	width: calc((100% - 90px)/3);
+	height: 500px;
+	border: 2px solid grey;
+}
+
+.image1 {
+	background-image: url(../img/grot1.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	padding-bottom: 100%;
+}
+
+.image2 {
+	background-image: url(../img/grot2.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	padding-bottom: 100%;
+}
+
+.image3 {
+	background-image: url(../img/grot3.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	padding-bottom: 100%;
+}
+
+p {
+	
+}
+
+.footer {
+	height: 100px;
+	background-color: darkred;
+	display: flex;
+	align-items: center;
+}
+
+.Copyright {
+padding: 10px;
+font-size: 20px;
+font-weight: bold;
+}
