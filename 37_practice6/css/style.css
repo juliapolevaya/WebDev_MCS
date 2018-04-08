@@ -26,7 +26,7 @@ h1 {
 .columns {
 	width: 90vw;
 	margin: auto;
-	height: 500px;
+	height: 500px; /*убери высоту*/
 	display: flex;
 	justify-content: space-between;
 	padding: 30px;
@@ -34,10 +34,10 @@ h1 {
 
 .column {
 	width: calc((100% - 90px)/3);
-	height: 500px;
+	height: 500px; /*убери высоту*/
 	border: 2px solid grey;
 }
-
+/* сделай всем картинкам background-size: cover; */
 .image1 {
 	background-image: url(../img/grot1.jpg);
 	background-repeat: no-repeat;
