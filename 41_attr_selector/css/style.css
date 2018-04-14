@@ -1,0 +1,9 @@
+@import url(reset.css);
+
+ img[src="https://images.pexels.com/photos/356378/pexels-photo-356378.jpeg?auto=compress&cs=tinysrgb&h=350"]  {
+ 	width: 300px;
+ }
+
+ img[alt="dog&cat"] {
+ 	width: 600px;
+ }

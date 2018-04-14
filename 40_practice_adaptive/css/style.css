@@ -11,7 +11,7 @@
 }
 
 .h1 {
-	height: 70px;
+	height: 120px;
 	width: 800px;
 	opacity: 0.8;
 	background-color: white;
@@ -38,18 +38,19 @@ p {
 }
 
 .blocks {
-	margin: auto;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	flex-direction: column;
+	margin: auto;
 	padding: 30px;
 }
 
-.block {
-	height: calc((100% - 70px)/4);
+.block1, .block2, .block3, .block4 {
+	height: calc((100% - 90px)/4);
 	border: 3px solid lightgreen;
 	border-radius: 20px;
 	width: 300px;
+	margin: 20px;
 }
 	
 
@@ -66,15 +67,18 @@ p {
 	font-weight: bold;
 }
 
- @media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) {
 	.blocks {
-	margin: auto;
-	display: flex;
-	justify-content: space-around;
-	flex-direction: column;
-	padding: 30px;
-	-webkit-column-count: 2; 
-    -moz-column-count: 2; 
-    column-count: 2;
+		display: flex;
+		justify-content: space-around; 
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin: auto;
+	}
+
+	.column {
+		width: 35%;
+		height: calc((100% - 90px)/4);
+
 	}
 }
