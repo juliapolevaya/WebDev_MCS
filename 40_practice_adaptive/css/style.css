@@ -1,0 +1,80 @@
+@import url(reset.css);
+
+.header {
+	height: 200px;
+	background-image: url(../img/animal_rights.jpg);
+	background-position: center;
+	display: flex;
+	align-content: flex-start;
+	text-align: center; 
+	/*не понимаю, почему текст не выравнивается по центру :(*/
+}
+
+.h1 {
+	height: 70px;
+	width: 800px;
+	opacity: 0.8;
+	background-color: white;
+	margin: auto;
+
+}
+
+h1 {
+	font-size: 25px;
+	font-weight: bold;
+	padding: 8px;
+	color: black;
+}
+
+h2 {
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+}
+
+p {
+	padding: 10px;
+}
+
+.blocks {
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	padding: 30px;
+}
+
+.block {
+	height: calc((100% - 70px)/4);
+	border: 3px solid lightgreen;
+	border-radius: 20px;
+	width: 300px;
+}
+	
+
+.footer {
+	height: 50px;
+	display: flex;
+	align-items: center;
+	background-color: #045b2d;
+}
+
+.copyright {
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+ @media screen and (min-width: 600px) {
+	.blocks {
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	padding: 30px;
+	-webkit-column-count: 2; 
+    -moz-column-count: 2; 
+    column-count: 2;
+	}
+}
