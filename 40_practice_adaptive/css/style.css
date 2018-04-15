@@ -41,16 +41,16 @@ p {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
-	margin: auto;
-	padding: 30px;
+	margin: auto; /* т.к. не написано никакой ширины, это бессмысленное свойство */
+	padding: 30px; /* в чем идея этого padding? */
 }
 
 .block1, .block2, .block3, .block4 {
-	height: calc((100% - 90px)/4);
+	height: calc((100% - 90px)/4); /* зачем? Попробуй убрать */
 	border: 3px solid lightgreen;
 	border-radius: 20px;
 	width: 300px;
-	margin: 20px;
+	margin: 20px; /* круто было бы выровнять по центру, например при помощи margin: 20px auto; */
 }
 	
 
@@ -69,16 +69,16 @@ p {
 
 @media screen and (min-width: 600px) {
 	.blocks {
-		display: flex;
+		display: flex; /* он уже флекс */
 		justify-content: space-around; 
 		flex-direction: row;
 		flex-wrap: wrap;
-		margin: auto;
+		margin: auto; /* это и так было */
 	}
 
 	.column {
 		width: 35%;
-		height: calc((100% - 90px)/4);
+		height: calc((100% - 90px)/4); /*зачем?*/
 
 	}
 }

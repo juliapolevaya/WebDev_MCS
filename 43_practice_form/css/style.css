@@ -1,5 +1,7 @@
 @import url(reset.css);
 
+/* looks like a good working form */
+
 .page {
 	font-family: Arial, Helvetica, serif;
 }
@@ -35,7 +37,7 @@ form {
  }
 
 label {
-display: block;
+	display: block;
 }
 
  input:focus, textarea:focus, select:focus; {
